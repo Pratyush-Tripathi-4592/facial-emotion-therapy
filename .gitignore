@@ -1,0 +1,25 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS and editor files
+.DS_Store
+.vscode/
+
+# Local Streamlit credentials
+.streamlit/credentials.toml
+
+# Generated reports and runtime files
+reports/*
+!reports/.gitkeep
+*.log
+
+# Local secrets
+.env
+.env.*
+!.env.example
